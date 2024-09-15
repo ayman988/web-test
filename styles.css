@@ -1,0 +1,86 @@
+body{
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0px;
+    overflow: hidden;
+}
+header{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
+.container{
+    background-color: rgb(233, 224, 210);
+    height: 75%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid;
+    border-width: 0.5%;
+    border-radius: 10px;
+    box-shadow: 5px 7px black
+}
+.row{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 20%;
+}
+.choice, .answer{
+    width: 20%;
+    height: 100%;
+    border: solid;
+    border-width: 0.5%;
+    border-radius: 10px;
+    cursor: grab;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center;
+}
+h1{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+button{
+    width: 15%;
+    height: 10%;
+    border: solid;
+    border-width: 0.5%;
+    border-radius: 10px;
+    background-color:rgb(9, 245, 205);
+    box-shadow: 2px 5px black;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+#score-display{
+    height: 5%;
+    font-size:x-large;
+    color: rgb(121, 239, 92);
+    font-weight:500;
+    
+}
+.hidden {
+    display: none;
+}
+.dragged{
+    border: none;
+}
